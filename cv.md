@@ -7,7 +7,7 @@ Contact information:
 1. discord: Vlasovets Andrew (@v1andy)
 2. Telegram: @vlandy
 3. GitHub: vlandy
-4: email: vlasovetsa973@gmail.com
+4. email: vlasovetsa973@gmail.com
 ----
 ## My biography:
 I study in Minsk, at BNTU. 
