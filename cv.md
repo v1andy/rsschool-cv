@@ -10,7 +10,11 @@ Contact information:
 4: email: vlasovetsa973@gmail.com
 ----
 ## My biography:
-
+I study in Minsk, at BNTU. 
+For a year and a half I studied the Java language.
+I realized that it wasn't mine, so I decided to switch to front-end development.
+I had no work experience, I want to finish this course with a high score and get a job offer.
+My strengths are perseverance, a great desire to study, and determination.
 
 ----
 ## **Skills:**
