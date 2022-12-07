@@ -4,9 +4,10 @@
 ### ***Student of the rs-school***
 ----
 Contact information:
-1. discord: v1andy#7085
+1. discord: Vlasovets Andrew (@v1andy)
 2. Telegram: @vlandy
-3. GitHun: vlandy
+3. GitHub: vlandy
+4: email: vlasovetsa973@gmail.com
 ----
 ## My biography:
 
@@ -42,3 +43,9 @@ public class PassRep {
     }
 }
 ```
+----
+## **Courses**
+1. [Course on udemy by Zaur Tregulov](https://www.udemy.com/course/java-oca-oracle/)
+2. Course on rs-school: JS/FE Pre-School 2022Q4
+## **English level**
+*A2(I haven't had any practice)*
