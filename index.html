@@ -4,8 +4,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>CV</title>
 </head>
 <body>
+    <header>
+<nav class = "center background-menu">
+<ul class="hr animation">
+    <li> <a href="#bio">About me</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#examples">Code example</a></li>
+    <li><a href="#study">Courses & English lvl</a></li>
+    <li> Contact information </li>
+</ul>
+</nav>
+    </header>
+<hr>
+     <main>
+<div class = "portrait">
+    <img src="photo.png" alt="My portrait" width="300px" height="356px" class = "">
+    <h1>Andrew Vlasovets</h1>
+</div>
+
+<hr>
+
+<div class="main-text center" id="bio">
+<h2> My bio: </h2>
+<p>I study in Minsk, at BNTU. For a year and a half I studied the Java language.</p> 
+<p>I realized that it wasn’t mine, so I decided to switch to front-end development. </p>
+<p>I had no work experience, </p>
+<p>I want to finish this course with a high score and get a job offer. </p>
+<p>My strengths are perseverance, a great desire to study, and determination.</p>
+</div>
+
+<div class = "main-text center" id="skills">
+<h2>My Skills:</h2>
+
+<ul class = "skills">
+    <li>Java</li>
+    <li>Git, Github</li>
+    <li>VS Code, InteliJ IDEA</li>
+    <li>HTML basics</li>
+    <li>CSS basics</li>
+</ul>
+</div>
+
+<div class = "main-text center" id="examples">
+<h2> Code example </h2>
+<p> Here u can look at my examples of my code. </p>
+<It>It's no very correct, but I'm learning. </p>
+
+<code class>
+    <pre>
+   import controller.Passport;
+   import java.util.ArrayList;
+   import java.util.HashMap;
+   import java.util.List;
+   import java.util.Map;
+   public class PassRep {
+
+   List<Passport> passports = new ArrayList<>();
+   Map<String,Passport> baseOfPassports = new HashMap();
+
+
+    public void passAdd(Passport pass) {
+    baseOfPassports.put(pass.getId(), pass);
+    }
+
+   public Passport passGet(String id){
+        return baseOfPassports.get(id);
+    }
+       }
+</pre>
+</code>
+</div>
+<div class = "main-text center" id="study">
+<h2>Courses:</h2>
+<ul>
+    <li> Course on udemy by Zaur Tregulov</li>
+    <li>Course on rs-school: JS/FE Pre-School 2022Q4 </li>
+</ul>
+<p> My English level is A2(I haven’t had any practice)</p>
+</div>
+    </main>
+    <hr>
+    <footer>
+        
+    </footer>
 </body>
 </html>
