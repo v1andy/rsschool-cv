@@ -3,6 +3,9 @@ a{
     color: black;
 }
 
+code{
+    text-align: right;
+}
 
 h1{
     font-size: 50px;
@@ -15,21 +18,50 @@ li{
     list-style-type: none
 }
 ul.hr{
-    margin: 0px; /* Обнуляем значение отступов */
-    padding: 3px; /* Значение полей */
+    margin: 0px;
+    padding: 3px; 
    }
    ul.hr li {
     text-align: center;
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: inline; /* Отображать как строчный элемент */
-    margin-right: 32px; /* Отступ слева */
+    display: inline; 
+    margin-right: 15px; 
+    margin-bottom: 20px;
     border-radius: 20px;
-    padding: 14px; /* Поля вокруг текста */
+    padding: 14px; 
     background-color: bisque;
     font-weight: bold;
    }
-   
+
+   ul.skills{
+    margin: 0px; 
+    padding: 5px; 
+    padding-bottom: 10px; 
+   }
+
+   ul.skills li {
+    border: 1px solid #726d68;
+    color:rgb(46, 43, 43);
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline; 
+    margin-right: 3px; 
+    margin-bottom: 20px;
+    padding: 8px;
+    background-color: #ccc3b9;
+    font-weight: bold;
+   }
+
+.background-menu{
+    border: 1px solid black;
+    padding: 30px;
+    margin: 20px 600px;
+    background-color: skyblue;
+    border-radius: 20px;
+   }
+
    .animation li:hover{
     background-color: #F4ABC4;
     text-decoration: underline;
@@ -46,13 +78,7 @@ ul.hr{
     text-align: center;
    }
 
-   .background-menu{
-    padding: 30px;
-    margin: 20px 400px;
-    background-color: skyblue;
-    border-radius: 20px;
-   }
-
+   
 
    .portrait img{
     border-radius: 125px;
@@ -81,26 +107,7 @@ ul.hr{
     line-height:normal;
        }
    
-   ul.skills{
-    margin: 0px; /* Обнуляем значение отступов */
-    padding: 5px; /* Значение полей */
-    padding-bottom: 10px; 
-   }
-
-   ul.skills li {
-    border: 1px solid #726d68;
-    color:rgb(46, 43, 43);
-    text-align: center;
-    font-size: 19px;
-    font-family: 'Courier New', Courier, monospace;
-    display: inline; /* Отображать как строчный элемент */
-    margin-right: 3px; /* Отступ слева */
-    margin-bottom: 20px;
-    padding: 8px; /* Поля вокруг текста */
-    background-color: #ccc3b9;
-    font-weight: bold;
-   }
-
+   
    .main-text code{
     font-size: 12px;
     text-align: left;
